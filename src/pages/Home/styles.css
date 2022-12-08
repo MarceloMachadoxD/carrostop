@@ -1,4 +1,4 @@
-.home-container {
+.home-banner-container {
   background-color: #00285f;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   padding: 0px;
   margin: 20px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 5%;
+  border-radius: 10%;
   min-height: 325px;
   max-width: 320px;
   color: whitesmoke;
@@ -38,3 +38,37 @@
   height: auto;
   width: 244px;
 }
+
+.link-card-container {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 28px;
+  margin: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 3%;
+  min-height: 123px;
+  max-width: 320px;
+  color: #585858;
+}
+
+.link-card-container p {
+  padding-top: 9px;
+  padding-left: 15px;
+  font-size: 0.85em;
+  padding-bottom: 0px;
+}
+
+.link-card-container button {
+  background-color: #00285F;
+  border-style: none;
+  width: 174px;
+  height: 40px;
+  border-radius: 5%;
+  color: whitesmoke;
+  font-size: 1em;
+}
+
