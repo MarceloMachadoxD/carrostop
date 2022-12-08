@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 a, a:hover {
     text-decoration: none;
     color: unset;
