@@ -8,7 +8,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
           <a href="/">
-            <h1>Carros Top</h1>{" "}
+            <h1>Carros Top</h1>
           </a>
 
           <button
