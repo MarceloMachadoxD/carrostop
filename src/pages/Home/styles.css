@@ -1,0 +1,40 @@
+.home-container {
+  background-color: #00285f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding: 0px;
+  margin: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5%;
+  min-height: 325px;
+  max-width: 320px;
+  color: whitesmoke;
+}
+
+.home-banner {
+  display: flex;
+  flex-direction: column;
+  padding-right: 7px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-banner h1 {
+  font-size: 1.2em;
+}
+
+.home-banner p {
+  padding-top: 5px;
+  padding-left: 15px;
+  font-size: 0.8em;
+  padding-bottom: 0px;
+}
+
+.home-banner img {
+  padding-top: 62px;
+  height: auto;
+  width: 244px;
+}
