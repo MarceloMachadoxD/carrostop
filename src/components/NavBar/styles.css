@@ -1,0 +1,32 @@
+.navbar {
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  font-size: 18px;
+  min-height: 20px;
+}
+
+.navbar h1 {
+  padding-left: 10px;
+  font-size: 24px;
+  color: darkblue;
+}
+
+.navbar a {
+  color: darkblue;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.navbar a.active {
+    color: blue;
+    font-family: 700;
+}
+
+.navbar li {
+    padding-left: 10px;
+
+  }

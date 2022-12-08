@@ -1,10 +1,11 @@
-import React from 'react';
+import './custom.scss';
 import './App.css';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <>
-    <p>criar componente navbar</p>
+    <NavBar />
     <p>criar pagina de rotas</p>
     </>
   );
