@@ -7,3 +7,19 @@
   flex-direction: column;
   padding-bottom: 70px;
 }
+
+.container {
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    margin-left: 100px;
+  }
+}
