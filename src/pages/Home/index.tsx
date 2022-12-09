@@ -8,7 +8,7 @@ function Home() {
       <div className="home-container">
         <div className="home-banner-container">
           <div className="home-banner">
-            <img src={Car} alt="carro vermelho" />
+            <img src={Car} alt="carro amarelo" />
             <div className="home-banner-text">
               <h1>O carro perfeito para você</h1>
               <p>
@@ -20,7 +20,7 @@ function Home() {
         </div>
         <div className="link-card-container">
           <div className="link-card">
-            <Link to="products">
+            <Link to="/products">
               <button>VER CATALOGO</button>
             </Link>
             <p>Comece agora a Navegar</p>
