@@ -10,23 +10,47 @@
 .navbar h1 {
   padding-left: 10px;
   font-size: 24px;
-  color: darkblue;
+  color: #00285F;
 }
 
 .navbar a {
-  color: darkblue;
+  color: #00285F;
+  font-weight: 400;
 }
 
 .navbar a:hover {
-  color: black;
+  color: #00285F;
 }
 
 .navbar a.active {
-    color: blue;
-    font-family: 700;
+  color: #00285F;
+  font-weight: 700;
 }
 
 .navbar li {
-    padding-left: 10px;
+  padding-left: 10px;
+}
 
+@media (min-width: 768px) {
+  .navbar li {
+    padding-left: 45px;
   }
+}
+
+@media (min-width: 992px) {
+  .navbar li {
+    padding-left: 55px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .navbar li {
+    padding-left: 75px;
+  }
+  .hamburguer-navbar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+  }
+}

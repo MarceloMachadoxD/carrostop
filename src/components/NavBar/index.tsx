@@ -25,7 +25,7 @@ const NavBar = () => {
           </button>
 
           <div className="collapse navbar-collapse" id="hamburguer-navbar">
-            <ul className="navbar-nav offset-md-2 main-menu">
+            <ul className="navbar-nav offset-md-2 main-menu hamburguer-navbar">
               <li>
                 <NavLink to="/">HOME</NavLink>
               </li>
