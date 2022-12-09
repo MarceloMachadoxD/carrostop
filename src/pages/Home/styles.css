@@ -1,3 +1,10 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
 .home-banner-container {
   background-color: #00285f;
   display: flex;
@@ -9,7 +16,7 @@
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 3%;
   min-height: 325px;
-  max-width: 320px;
+  width: 85%;
   color: whitesmoke;
 }
 
@@ -52,8 +59,8 @@
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 3%;
   min-height: 123px;
-  max-width: 320px;
   color: #585858;
+  width: 85%;
 }
 
 .link-card-container p {
@@ -64,12 +71,100 @@
 }
 
 .link-card-container button {
-  background-color: #00285F;
+  background-color: #00285f;
   border-style: none;
   width: 174px;
   height: 40px;
   border-radius: 5%;
   color: whitesmoke;
   font-size: 1em;
+  font-weight: 700;
 }
 
+@media (min-width: 576px) {
+  .link-card-container {
+    width: 93%;
+  }
+  .link-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .link-card-container button {
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+  .link-card-container p {
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+  }
+  .home-banner-container {
+    width: 93%;
+  }
+
+  .home-banner h1 {
+    font-size: 1.5em;
+  }
+
+  .home-banner p {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .link-card-container {
+    width: 93%;
+  }
+  .home-banner-container {
+    width: 93%;
+  }
+
+  @media (min-width: 992px) {
+    .link-card-container {
+      width: 93%;
+    }
+    .home-banner-container {
+      width: 93%;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .home-banner {
+      padding-top: 40px;
+      flex-direction: row-reverse;
+      align-items: flex-end;
+      justify-content: center;
+      width: 90%;
+      margin: 0px;
+    }
+    .home-banner-container {
+      width: 76%;
+      height: 365px;
+      border-radius: 10px;
+    }
+    .home-banner h1 {
+      font-size: 2em;
+      padding-left: 13px;
+    }
+    .home-banner p {
+      font-size: 1.2em;
+    }
+    .home-banner img {
+      width: 333px;
+    }
+    .home-banner-text {
+      padding-right: 10px;
+      text-align: left;
+      width: 420px;
+    }
+    .link-card-container {
+      width: 76%;
+      height: 123px;
+      border-radius: 10px;
+    }
+    .link-card p {
+      font-size: 1em;
+    }
+  }
+}
